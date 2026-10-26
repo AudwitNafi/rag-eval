@@ -1,0 +1,355 @@
+# Northstar Office & Workshop Equipment
+
+**Document type:** Product catalog and service manual\
+**Catalog version:** 3.2\
+**Last updated:** 2026-10-01
+
+This fictional catalog is designed for testing keyword-based search,
+BM25 ranking, document chunking, and retrieval. It intentionally
+includes product IDs, technical terms, synonyms, and repeated concepts
+in different contexts.
+
+## Quick Product Index
+
+  -----------------------------------------------------------------------
+  Product ID        Product name      Category          Primary keywords
+  ----------------- ----------------- ----------------- -----------------
+  NS-LP140          Lumen Pro 140     Lighting          LED, dimmer,
+                    Desk Lamp                           color
+                                                        temperature,
+                                                        flicker-free
+
+  NS-KB87           KeyForge 87       Computer          keyboard,
+                    Mechanical        accessories       switches,
+                    Keyboard                            hot-swap, USB-C
+
+  NS-MX2            QuietFlow MX2 Air Air quality       HEPA, particulate
+                    Purifier                            matter, CADR,
+                                                        filter
+
+  NS-DR500          DryVault 500      Climate control   humidity, water
+                    Dehumidifier                        tank, compressor,
+                                                        drainage
+
+  NS-PW65           TrailCore 65      Portable power    battery, USB-C
+                    Power Bank                          PD, watt-hour,
+                                                        charging
+
+  NS-SC10           ScanMate C10      Office equipment  OCR, duplex
+                    Document Scanner                    scanning, feeder,
+                                                        PDF
+
+  NS-RB4            BenchBot RB4      Cleaning          robot vacuum,
+                    Robotic Cleaner                     LiDAR, mapping,
+                                                        suction
+
+  NS-TH8            ThermoTrack TH8   Monitoring        temperature,
+                    Sensor                              humidity,
+                                                        Bluetooth,
+                                                        logging
+  -----------------------------------------------------------------------
+
+## NS-LP140 --- Lumen Pro 140 Desk Lamp
+
+**Category:** Lighting\
+**SKU:** NS-LP140\
+**Price tier:** Mid-range\
+**Warranty:** 24 months
+
+The Lumen Pro 140 is an adjustable LED desk lamp for reading, drafting,
+and detailed office work. Its articulated arm supports precise
+positioning, while the broad light guide distributes illumination across
+a desktop.
+
+### Specifications
+
+-   Power input: 12 W
+-   Brightness: 900 lumens maximum
+-   Color temperature: 2700 K, 4000 K, or 5000 K
+-   Controls: touch dimmer with four brightness levels
+-   Power connector: barrel jack, 12 V DC adapter
+-   Features: flicker-free driver, memory setting, timer
+
+### Search terms and notes
+
+Useful keywords include **desk light**, **task lighting**, **LED lamp**,
+**reading lamp**, **dimmable light**, **warm white**, **cool white**,
+and **color temperature**. The 2700 K setting produces a warmer
+appearance; 5000 K is cooler and more neutral. The lamp is not
+battery-powered and does not include a USB charging port.
+
+### Troubleshooting
+
+If the lamp does not turn on, check the wall outlet and adapter
+connection. If brightness seems inconsistent, disconnect power for 15
+seconds and reconnect it. Do not use an adapter above 12 V DC.
+
+## NS-KB87 --- KeyForge 87 Mechanical Keyboard
+
+**Category:** Computer accessories\
+**SKU:** NS-KB87\
+**Warranty:** 18 months
+
+The KeyForge 87 is a tenkeyless mechanical keyboard with 87 keys. It
+saves desk space by omitting the numeric keypad. The hot-swappable
+switch sockets let users replace compatible switches without soldering.
+
+### Specifications
+
+-   Layout: ANSI tenkeyless (TKL), 87 keys
+-   Connection: detachable USB-C cable
+-   Switch compatibility: 3-pin and 5-pin MX-style mechanical switches
+-   Key rollover: full N-key rollover in wired mode
+-   Case: reinforced polycarbonate
+-   Profiles: three onboard lighting profiles
+
+### Search terms and notes
+
+Related terms: **mechanical keyboard**, **TKL keyboard**, **compact
+keyboard**, **hot swap**, **switch replacement**, **linear switch**,
+**tactile switch**, **clicky switch**, **key rollover**, and **USB
+Type-C**. The keyboard has no wireless radio and cannot connect over
+Bluetooth. Its USB-C port is for data and power, not laptop charging.
+
+### Troubleshooting
+
+If a key repeats, remove the keycap and check for debris. Test the
+switch in another hot-swap socket before replacing it. If the keyboard
+is not detected, try a direct motherboard USB port rather than a passive
+hub.
+
+## NS-MX2 --- QuietFlow MX2 Air Purifier
+
+**Category:** Air quality\
+**SKU:** NS-MX2\
+**Warranty:** 24 months
+
+The QuietFlow MX2 filters airborne particles in bedrooms and small
+offices. A multi-stage filter assembly combines a washable pre-filter, a
+high-efficiency particulate air (HEPA) filter, and an activated-carbon
+layer for some household odors.
+
+### Specifications
+
+-   Recommended room size: up to 28 m²
+-   Clean air delivery rate (CADR): 240 m³/h
+-   Fan speeds: 1, 2, 3, and Auto
+-   Filter indicator: estimated service-life warning
+-   Noise level: 24--52 dB, depending on fan speed
+-   Sensor: optical particle sensor
+
+### Search terms and notes
+
+Search phrases include **air cleaner**, **air filtration**, **HEPA
+filter**, **fine dust**, **PM2.5**, **pollen**, **pet dander**,
+**particle sensor**, **CADR rating**, and **activated carbon**. CADR
+describes the volume of filtered air delivered per hour; it is not the
+same as the room's floor area. The carbon layer can reduce certain odors
+but does not make the device a gas detector.
+
+### Maintenance
+
+Vacuum the pre-filter every two weeks in dusty environments. Replace the
+main filter when the indicator illuminates or airflow remains weak after
+cleaning the pre-filter. Never wash the HEPA cartridge.
+
+## NS-DR500 --- DryVault 500 Dehumidifier
+
+**Category:** Climate control\
+**SKU:** NS-DR500\
+**Warranty:** 24 months
+
+The DryVault 500 removes excess moisture from indoor air using a
+compressor-based refrigeration cycle. It is intended for damp bedrooms,
+storage rooms, and laundry areas.
+
+### Specifications
+
+-   Moisture removal: up to 12 L per day under rated test conditions
+-   Water tank: 2.5 L
+-   Humidity target: 35--80% relative humidity
+-   Drainage: removable tank or continuous hose
+-   Modes: Normal, Laundry, and Sleep
+-   Automatic features: defrost protection and full-tank shutoff
+
+### Search terms and notes
+
+Related keywords: **dehumidifier**, **damp room**, **mold prevention**,
+**relative humidity**, **RH**, **condensation**, **moisture
+extraction**, **continuous drainage**, and **water reservoir**.
+Performance varies with room temperature and humidity. A 12 L/day rating
+is a laboratory figure, not a guarantee for every room.
+
+### Troubleshooting
+
+If the unit stops and the tank light is on, empty and reseat the tank.
+If collected water is low in a cool room, the lower moisture content of
+the air may explain the result. Keep the air inlet and outlet clear.
+
+## NS-PW65 --- TrailCore 65 Power Bank
+
+**Category:** Portable power\
+**SKU:** NS-PW65\
+**Warranty:** 12 months
+
+The TrailCore 65 is a rechargeable lithium-ion power bank intended for
+phones, tablets, and selected USB-C laptops. Its USB Power Delivery
+controller negotiates a supported voltage and current with the connected
+device.
+
+### Specifications
+
+-   Nominal energy: 65 Wh
+-   USB-C port A: up to 65 W output
+-   USB-C port B: up to 30 W output
+-   USB-A port: up to 18 W output
+-   Recharge input: USB-C, up to 45 W
+-   Protection: over-current, over-temperature, and short-circuit
+    protection
+
+### Search terms and notes
+
+Keywords: **portable charger**, **external battery**, **power bank**,
+**USB-C PD**, **Power Delivery**, **wattage**, **watt-hour**, **battery
+capacity**, **fast charging**, and **laptop charger**. Wh (watt-hour)
+measures energy, while W (watt) measures power. Actual delivered energy
+is lower than nominal capacity because of conversion losses. The maximum
+output is shared when multiple ports are used.
+
+### Safety
+
+Do not leave the power bank in a hot vehicle or expose it to water. Stop
+using the unit if its enclosure swells, cracks, or becomes unusually
+hot. Use a compatible USB-C cable rated for the required power.
+
+## NS-SC10 --- ScanMate C10 Document Scanner
+
+**Category:** Office equipment\
+**SKU:** NS-SC10\
+**Warranty:** 12 months
+
+The ScanMate C10 converts paper documents into searchable digital files.
+Its automatic document feeder handles multi-page jobs, and duplex mode
+captures both sides of a sheet in one pass.
+
+### Specifications
+
+-   Optical resolution: up to 600 dpi
+-   Feeder capacity: 40 sheets of standard paper
+-   Scan speed: up to 25 pages per minute, simplex
+-   Duplex: supported
+-   Output formats: PDF, searchable PDF, JPEG, TIFF
+-   Connectivity: USB 3.0
+-   Software: OCR and blank-page detection
+
+### Search terms and notes
+
+Useful phrases: **document digitization**, **paper scanner**, **OCR**,
+**optical character recognition**, **searchable PDF**, **double-sided
+scanning**, **duplex**, **automatic document feeder**, **ADF**, **600
+dpi**, and **archive workflow**. OCR converts recognized text in an
+image into machine-readable characters; accuracy depends on image
+quality, language, fonts, and page condition.
+
+### Troubleshooting
+
+For skewed scans, align the paper guides and fan the paper stack before
+loading it. If pages feed twice, reduce the stack size and inspect the
+rollers. Clean the glass with a lint-free cloth and an approved cleaner.
+
+## NS-RB4 --- BenchBot RB4 Robotic Cleaner
+
+**Category:** Cleaning\
+**SKU:** NS-RB4\
+**Warranty:** 18 months
+
+The BenchBot RB4 is a robotic floor cleaner that uses laser distance
+sensing (LiDAR) to build a map of indoor spaces. Users can define room
+boundaries and no-go zones in the companion application.
+
+### Specifications
+
+-   Navigation: LiDAR mapping
+-   Cleaning modes: Vacuum, Edge, Spot, and Scheduled
+-   Suction settings: Quiet, Standard, Max
+-   Dust bin: 450 mL
+-   Runtime: up to 120 minutes on hard floors in Standard mode
+-   Charging: automatic return to dock
+
+### Search terms and notes
+
+Related terms: **robot vacuum**, **robotic cleaner**, **floor mapping**,
+**laser navigation**, **LiDAR**, **no-go zone**, **suction power**,
+**dust bin**, **scheduled cleaning**, and **charging dock**. Runtime
+varies by surface, suction level, and floor plan. The RB4 does not mop
+and does not empty its own dust bin.
+
+### Troubleshooting
+
+If the robot cannot find its dock, place the dock against a wall with
+open space on both sides. Clean the laser sensor cover and remove hair
+from the main brush. Rebuild the map if major furniture changes confuse
+navigation.
+
+## NS-TH8 --- ThermoTrack TH8 Sensor
+
+**Category:** Monitoring and sensors\
+**SKU:** NS-TH8\
+**Warranty:** 12 months
+
+The ThermoTrack TH8 records ambient temperature and relative humidity
+for storage cabinets, workrooms, and indoor plants. Bluetooth Low Energy
+synchronizes readings with a nearby phone.
+
+### Specifications
+
+-   Temperature range: -10°C to 60°C
+-   Temperature accuracy: ±0.5°C under specified conditions
+-   Relative humidity range: 10--95% RH, non-condensing
+-   Humidity accuracy: ±3% RH in the central operating range
+-   Logging interval: 1, 5, or 15 minutes
+-   Memory: 30 days at a five-minute interval
+-   Power: two AAA batteries
+
+### Search terms and notes
+
+Keywords include **temperature sensor**, **humidity monitor**,
+**thermometer**, **hygrometer**, **environmental logging**, **Bluetooth
+sensor**, **data logger**, **ambient conditions**, **relative
+humidity**, and **storage monitoring**. Accuracy can be affected by
+direct sunlight, drafts, condensation, and proximity to heat sources.
+
+### Troubleshooting
+
+If readings do not synchronize, enable Bluetooth and keep the phone
+within several meters of the sensor. Replace both batteries if the
+display fades. Allow the sensor to stabilize after moving it to a room
+with different temperature or humidity.
+
+## General Warranty and Service Policy
+
+The warranty covers manufacturing defects during the stated warranty
+period when the product is used according to its instructions. It does
+not cover accidental damage, liquid ingress where the device is not
+rated for it, unauthorized modification, or ordinary consumable wear.
+
+To request service, provide the product SKU, purchase date, a
+description of the fault, and any relevant error message. Keep the
+original proof of purchase. Do not open sealed electrical assemblies
+unless the service documentation explicitly permits user maintenance.
+
+
+### Deliberately Ambiguous Queries
+
+These queries contain overlapping vocabulary and can help reveal ranking
+behavior:
+
+-   `humidity sensor`: relevant to both the DryVault 500 and ThermoTrack
+    TH8, but for different purposes.
+-   `USB-C`: relevant to the KeyForge 87 and TrailCore 65, though only
+    the power bank provides high-wattage charging.
+-   `filter`: most strongly associated with the QuietFlow MX2, but the
+    word can appear in general maintenance contexts.
+-   `mapping`: associated with the BenchBot RB4's LiDAR navigation.
+-   `temperature`: associated with the lamp's color temperature and the
+    sensor's ambient temperature, so surrounding terms matter.

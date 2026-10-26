@@ -1,0 +1,166 @@
+{
+  "name": "nimbus-harbor-handbook-qa",
+  "source_document": "nimbus_harbor_handbook.pdf",
+  "description": "10 QA pairs. 'keyword' items contain rare exact tokens (test lexical/hybrid search); 'semantic' items are paraphrased (test dense retrieval); 'table' items answer from a table. 'keywords' = tokens the correct retrieved chunk should contain; 'evidence' = verbatim snippets found on 'source_page'.",
+  "items": [
+    {
+      "id": "q01",
+      "type": "keyword",
+      "question": "What does error code HB-5033 mean, and which runbook should be followed?",
+      "answer": "HB-5033 means the Ballast queue is saturated. Follow runbook RB-218.",
+      "source_page": 2,
+      "keywords": [
+        "HB-5033",
+        "RB-218"
+      ],
+      "evidence": [
+        "HB-5033",
+        "Follow runbook RB-218"
+      ]
+    },
+    {
+      "id": "q02",
+      "type": "keyword",
+      "question": "Which procedure covers emergency hotfixes, and how many times per month can a team use it?",
+      "answer": "The Red Lantern procedure; each team may use it at most twice per calendar month.",
+      "source_page": 3,
+      "keywords": [
+        "Red Lantern",
+        "hotfix"
+      ],
+      "evidence": [
+        "Red Lantern",
+        "at most twice per calendar month"
+      ]
+    },
+    {
+      "id": "q03",
+      "type": "keyword",
+      "question": "Which template must be used for postmortems, and what is the deadline for filing one?",
+      "answer": "The blameless Tidepool template, filed within 5 business days.",
+      "source_page": 4,
+      "keywords": [
+        "Tidepool",
+        "postmortem"
+      ],
+      "evidence": [
+        "within 5 business days",
+        "Tidepool"
+      ]
+    },
+    {
+      "id": "q04",
+      "type": "semantic",
+      "question": "How long does a normal user's access token stay valid, and how do you get a fresh one?",
+      "answer": "User tokens (prefix hbt_) expire after 55 minutes; renew them with POST /v2/tokens/renew.",
+      "source_page": 2,
+      "keywords": [
+        "hbt_",
+        "55 minutes",
+        "/v2/tokens/renew"
+      ],
+      "evidence": [
+        "expire after 55 minutes",
+        "POST /v2/tokens/renew"
+      ]
+    },
+    {
+      "id": "q05",
+      "type": "table",
+      "question": "What are the requests-per-minute limit and burst allowance for the Sloop tier?",
+      "answer": "240 requests per minute with a burst allowance of 40.",
+      "source_page": 2,
+      "keywords": [
+        "Sloop",
+        "Dinghy",
+        "Galleon"
+      ],
+      "evidence": [
+        "Sloop",
+        "240",
+        "40"
+      ]
+    },
+    {
+      "id": "q06",
+      "type": "semantic",
+      "question": "Under what conditions is a canary deployment automatically reverted?",
+      "answer": "If during any canary stage the p95 latency exceeds 480 ms or the error rate exceeds 1.2%.",
+      "source_page": 3,
+      "keywords": [
+        "canary",
+        "480 ms",
+        "1.2%"
+      ],
+      "evidence": [
+        "rolled back automatically",
+        "480 ms",
+        "1.2%"
+      ]
+    },
+    {
+      "id": "q07",
+      "type": "semantic",
+      "question": "For how long are application logs kept before deletion, counting both storage phases?",
+      "answer": "14 days on hot storage, then a further 90 days in the cold-vault bucket (about 104 days in total).",
+      "source_page": 4,
+      "keywords": [
+        "Driftnet",
+        "cold-vault"
+      ],
+      "evidence": [
+        "14 days",
+        "cold-vault",
+        "90 days"
+      ]
+    },
+    {
+      "id": "q08",
+      "type": "keyword",
+      "question": "What is Pilotage, and when does it take action?",
+      "answer": "Pilotage is the failover controller. If the control plane is unreachable for more than 120 seconds, it promotes us-east-amber to primary.",
+      "source_page": 1,
+      "keywords": [
+        "Pilotage",
+        "us-east-amber",
+        "eu-north-quartz"
+      ],
+      "evidence": [
+        "Pilotage",
+        "120 seconds",
+        "us-east-amber"
+      ]
+    },
+    {
+      "id": "q09",
+      "type": "semantic",
+      "question": "How often is the main database backed up, and how far back can it be restored to an exact moment?",
+      "answer": "Backups run nightly at 02:30 UTC (kept 35 days); point-in-time recovery covers the last 7 days.",
+      "source_page": 5,
+      "keywords": [
+        "Mooring",
+        "PostgreSQL 16",
+        "point-in-time"
+      ],
+      "evidence": [
+        "02:30 UTC",
+        "35 days",
+        "7 days"
+      ]
+    },
+    {
+      "id": "q10",
+      "type": "keyword",
+      "question": "How frequently are the secrets stored in Strongbox rotated?",
+      "answer": "Every 90 days.",
+      "source_page": 5,
+      "keywords": [
+        "Strongbox"
+      ],
+      "evidence": [
+        "Strongbox",
+        "rotated every 90 days"
+      ]
+    }
+  ]
+}
