@@ -25,7 +25,7 @@ def load_doc(file_path):
         start = offset
         offset = start + len(cleaned_doc)
         end = offset
-        page_ranges.append((start, end, doc.metadata['page']))
+        page_ranges.append((start, end, doc.metadata['page'] + 1))
         page_contents.append(cleaned_doc)
 
     full_text = "\n\n".join(page_contents)

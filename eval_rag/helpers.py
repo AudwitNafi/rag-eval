@@ -45,6 +45,8 @@ def format_docs(docs):
 
     return "\n\n---\n\n".join(formatted_docs)
 
+def build_answer_chain(llm, prompt):
+    return prompt | llm | StrOutputParser()
 
 def build_rag_chain(retriever, llm, prompt):
     return (

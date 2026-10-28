@@ -9,3 +9,8 @@ Under what conditions is a canary deployment automatically reverted?,If during a
 "What is Pilotage, and when does it take action?","Pilotage is the failover controller. If the control plane is unreachable for more than 120 seconds, it promotes us-east-amber to primary."
 "How often is the main database backed up, and how far back can it be restored to an exact moment?",Backups run nightly at 02:30 UTC (kept 35 days); point-in-time recovery covers the last 7 days.
 How frequently are the secrets stored in Strongbox rotated?,Every 90 days.
+"In runbook RB-305, what does harborctl cert renew do, and which error code HB-5190 should disappear from Driftnet afterwards?",Runbook RB-305 renews the certificate with `harborctl cert renew --cluster <name>`; afterwards error code HB-5190 should no longer appear in Driftnet.
+What is the X-Harbor-Trace-Id header and when must its value be quoted?,X-Harbor-Trace-Id is a header included in every API response; its value must be quoted in all support tickets.
+"During the freeze window, which label, train-ready, still allows a merge, and when does the freeze begin?","Only changes labelled train-ready may be merged during the freeze window, which begins on the Monday before the release train at 18:00 UTC."
+"What is Kestrel, and on which date did release 4.2.0 ship?","Kestrel is the codename of release 4.2.0, which shipped on 18 March 2025."
+"What is the Mooring cluster running PostgreSQL 16, and which cipher, AES-256-GCM, protects its data at rest?","Mooring is the primary database, a PostgreSQL 16 cluster; all data is encrypted at rest with AES-256-GCM."

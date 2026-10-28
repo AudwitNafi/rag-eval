@@ -161,6 +161,82 @@
         "Strongbox",
         "rotated every 90 days"
       ]
+    },
+    {
+      "id": "q11",
+      "type": "keyword",
+      "question": "In runbook RB-305, what does harborctl cert renew do, and which error code HB-5190 should disappear from Driftnet afterwards?",
+      "answer": "Runbook RB-305 renews the certificate with `harborctl cert renew --cluster <name>`; afterwards error code HB-5190 should no longer appear in Driftnet.",
+      "source_page": 4,
+      "keywords": [
+        "RB-305",
+        "HB-5190",
+        "harborctl cert renew",
+        "Driftnet"
+      ],
+      "evidence": [
+        "harborctl cert renew --cluster",
+        "HB-5190 no longer appears in Driftnet"
+      ]
+    },
+    {
+      "id": "q12",
+      "type": "keyword",
+      "question": "What is the X-Harbor-Trace-Id header and when must its value be quoted?",
+      "answer": "X-Harbor-Trace-Id is a header included in every API response; its value must be quoted in all support tickets.",
+      "source_page": 2,
+      "keywords": [
+        "X-Harbor-Trace-Id"
+      ],
+      "evidence": [
+        "X-Harbor-Trace-Id",
+        "quoted in all support tickets"
+      ]
+    },
+    {
+      "id": "q13",
+      "type": "keyword",
+      "question": "During the freeze window, which label, train-ready, still allows a merge, and when does the freeze begin?",
+      "answer": "Only changes labelled train-ready may be merged during the freeze window, which begins on the Monday before the release train at 18:00 UTC.",
+      "source_page": 3,
+      "keywords": [
+        "train-ready",
+        "freeze window"
+      ],
+      "evidence": [
+        "freeze window begins on the preceding Monday at 18:00 UTC",
+        "train-ready"
+      ]
+    },
+    {
+      "id": "q14",
+      "type": "keyword",
+      "question": "What is Kestrel, and on which date did release 4.2.0 ship?",
+      "answer": "Kestrel is the codename of release 4.2.0, which shipped on 18 March 2025.",
+      "source_page": 1,
+      "keywords": [
+        "Kestrel",
+        "4.2.0"
+      ],
+      "evidence": [
+        "Release 4.2.0, codenamed Kestrel, shipped on 18 March 2025"
+      ]
+    },
+    {
+      "id": "q15",
+      "type": "keyword",
+      "question": "What is the Mooring cluster running PostgreSQL 16, and which cipher, AES-256-GCM, protects its data at rest?",
+      "answer": "Mooring is the primary database, a PostgreSQL 16 cluster; all data is encrypted at rest with AES-256-GCM.",
+      "source_page": 5,
+      "keywords": [
+        "Mooring",
+        "PostgreSQL 16",
+        "AES-256-GCM"
+      ],
+      "evidence": [
+        "PostgreSQL 16 cluster named Mooring",
+        "encrypted at rest with AES-256-GCM"
+      ]
     }
   ]
 }
